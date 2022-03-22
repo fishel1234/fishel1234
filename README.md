@@ -67,30 +67,30 @@ gantt
     milestone1                          :milestone, after e3, 0d
     
     section 7th week 
-    click&scroll&key                    :f1,03-28, 3d
-    test                                :f2,after f1,2d
-    Add to demo page                    :f3,after f2,48h
+    click&scroll&key                    :f1, after e3, 3d
+    test                                :f2, after f1,2d
+    Add to demo page                    :f3, after f2,48h
     
     section 8th week 
-    Update any issue or bug             :g1,after f3, 3d
-    test with the other team:           :g2,after g1, 20h
-    report to clients                   :g3,after g2, 48h
+    Update any issue or bug             :g1, after f3, 3d
+    test with the other team:           :g2, after g1, 20h
+    report to clients                   :g3, after g2, 48h
     
     section 9th week 
-    add function to find object by cooridnate  :h1,after h1, 5d
-    test                    :h2,after h1,20h
-    test for return to the scrap team                  :h3, 12h
+    add function to find object by cooridnate  :h1, after g3, 5d
+    test                                       :h2, after h1,20h
+    test for return to the scrap team          :h3, after h2, 12h
     
     section 10th week 
-    Finalise the project                :i1,after h3, 7d
-    documention                         :i2,after i2,7d
-    1st demo                            :i3, 48h
+    Finalise the project                :i1, after h3, 7d
+    documention                         :i2, after i1, 7d
+    1st demo                            :i3, after i2, 48h
     
     section 11-12th week
-    perfect UI&UX: j1,after i3, 7d
-    add extra function to improve: j2,after j1,5d
-    final presention: j3, after j2, 3d
-    final report: j4,after j2,3d
+    perfect UI&UX                : j1, after i3, 7d
+    add extra function to improve: j2, after j1,5d
+    final presention             : j3, after j2, 3d
+    final report                 : j4,after j2,3d
      
 
 ````
